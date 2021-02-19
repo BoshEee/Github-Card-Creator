@@ -1,0 +1,105 @@
+.card-container {
+  background-color: #314e52;
+  width: 600px;
+  height: 100%;
+  margin: 5px;
+  border-radius: 5px;
+}
+.card-container ul {
+  list-style: none;
+}
+/* User Header */
+.UserHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: #f2a154 3px solid;
+  margin: 8px;
+}
+.UserHeader img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+.username a {
+  color: #f2a154;
+  text-decoration: none;
+  padding: 15px;
+  margin: 15px;
+}
+.username a:hover {
+  color: #f7f6e7;
+}
+.userinfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+  padding: 8px;
+}
+.userinfo i {
+  padding: 8px 12px;
+}
+.userinfo p {
+  text-align: center;
+}
+.infobar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.infobar p {
+  padding: 8px;
+  color: #f7f6e7;
+}
+.bio {
+  width: 80%;
+}
+.bio p {
+  text-align: justify;
+  color: #f7f6e7;
+  margin: 10px;
+}
+/* User Repo List */
+.repos {
+  color: #f7f6e7;
+  text-align: center;
+  margin: 15px;
+  grid-template-rows: auto;
+}
+.reposHolder {
+  text-align: center;
+}
+.reposHolder label {
+  color: #f2a154;
+  font-size: 30px;
+  font-family: monospace;
+  letter-spacing: 6px;
+  text-align: center;
+  padding: 15px;
+}
+.repos ul {
+  display: grid;
+  grid-template-columns: 280px 280px;
+}
+.repos ul li {
+  text-align: left;
+  border: #f2a154 3px solid;
+  margin: 8px;
+  padding: 15px;
+}
+.repos ul li a:hover {
+  color: #f7f6e7;
+}
+.repos ul li a {
+  font-size: 20px;
+  color: #f2a154;
+  text-decoration: none;
+}
+.repos ul li p {
+  padding: 5px;
+}

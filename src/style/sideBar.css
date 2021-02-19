@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Mukta:wght@300&display=swap");
+.side-bar {
+  display: grid;
+  grid-template-rows: 150px 250px auto;
+  background-color: #314e52;
+  min-height: 900px;
+  position: relative;
+  width: 500px;
+}
+/* Logo */
+.Logo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  color: #314e52;
+  overflow: hidden;
+  background-color: #f2a154;
+  position: relative;
+  font-family: monospace;
+  font-size: 20px;
+}
+.logo-word {
+  color: #e7e6e1;
+  text-shadow: 2px 2px 5px #314e52;
+  font-size: 30px;
+  letter-spacing: 6px;
+}
+
+/* Input */
+.input-user {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.input-user label {
+  color: #e7e6e1;
+  font-size: 20px;
+  padding: 15px;
+}
+.input-user input {
+  border: none;
+  padding: 8px 35px;
+  margin: 5px;
+}
+.input-user button {
+  padding: 15px 35px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: #1a3033;
+  color: #fff;
+  font-weight: bold;
+}
+.input-user button:hover {
+  color: #1a3033;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  background-color: #314e52;
+  color: #fff;
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  border-top: #f2a154 3px solid;
+}
+footer span {
+  font-size: 20px;
+}
+
+/* About Section */
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+  color: #fff;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about p {
+  text-align: justify;
+  margin: 25px 5px;
+}
+.about a {
+  color: #f2a154;
+  text-decoration: none;
+}
+.about label {
+  color: #f2a154;
+  font-size: 30px;
+  padding: 15px;
+  border-bottom: 3px solid #f2a154;
+  margin: 5px;
+}

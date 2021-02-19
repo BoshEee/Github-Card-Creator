@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e7e6e1;
+}
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+  background: #e7e6e1;
+}
+body::-webkit-scrollbar-thumb {
+  background: #314e52;
+}
+main {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 100%;
+}
+@media only screen and (min-width: 400px) {
+  main {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+  }
+}
+@media only screen and (min-width: 400px) {
+  main {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  main {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+/* Loading */
+div.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: dashed 5px #314e52;
+  animation-name: loader-spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  margin-top: 55%;
+}
+
+@keyframes loader-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
